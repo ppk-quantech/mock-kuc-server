@@ -1,11 +1,32 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
+  "posts": {
+    "status": "OK",
+    "data": {
+      "data": [
+        {
+          "id": "1",
+          "title": "a title",
+          "views": 100
+        },
+        {
+          "id": "2",
+          "title": "another title",
+          "views": 200
+        }
+      ]
+    }
+  },
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
   "profile": {
     "name": "typicode"
@@ -49,7 +70,12 @@
     "status": "ERROR",
     "code": 993
   },
-  "signup": { "id": 99, "account": "johndoe", "nickName": "John Doe", "phoneNumber": "333-444-555" },
+  "signup": {
+    "id": 99,
+    "account": "johndoe",
+    "nickName": "John Doe",
+    "phoneNumber": "333-444-555"
+  },
   "alternativeUrls": [
     {
       "status": "ok",
@@ -153,7 +179,11 @@
       "status": "OK",
       "data": {
         "exists": true,
-        "options": ["VALID", "KVALID", "USERV"]
+        "options": [
+          "VALID",
+          "KVALID",
+          "USERV"
+        ]
       }
     }
   ]
